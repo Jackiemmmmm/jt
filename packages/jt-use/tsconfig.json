@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "jsx": "react",
+      "experimentalDecorators": true,
+      "declaration": true,
+      "sourceMap": false,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "outDir": "lib",
+      "lib": ["es2018", "dom"]
+    },
+    "include": [
+      "src"
+    ],
+    "exclude": [
+      "lib",
+      "esm",
+      "events",
+      "node_modules",
+      "tests",
+      "**/__tests__/**/*",
+      "*.test.ts",
+      "*.test.tsx",
+      "**/*.spec.ts",
+      "**/*.md"
+    ]
+  }

@@ -2,12 +2,19 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "start": "lerna exec --scope webpack-react -- yarn start"
+    "start": "lerna exec --scope webpack-react -- yarn start",
+    "eslint": "eslint --init"
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^6.0.1"
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.28.0",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "lerna": "^6.0.1",
+    "prettier": "^2.8.0",
+    "typescript": "^4.9.3"
   }
 }
