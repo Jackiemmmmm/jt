@@ -3,7 +3,12 @@
   "private": true,
   "scripts": {
     "start": "lerna exec --scope webpack-react -- yarn start",
-    "eslint": "eslint --init"
+    "build": "lerna exec --scope @jt/* -- yarn build",
+    "release": "lerna bootstrap && yarn build && lerna publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Jackiemmmmm/jt.git"
   },
   "workspaces": [
     "packages/*"

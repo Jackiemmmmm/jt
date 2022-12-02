@@ -1,5 +1,5 @@
 {
-  "name": "jt-use",
+  "name": "@jt/use",
   "version": "0.0.1",
   "description": "> TODO: description",
   "author": "Jackie.Tu <jackie.tu@meetsocial.com>",
@@ -16,7 +16,11 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npm.taobao.org/"
+    "registry": "https://www.npmjs.com/package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Jackiemmmmm/jt.git"
   },
   "scripts": {
     "test": "node ./__tests__/jt-use.test.js",
