@@ -8,6 +8,7 @@
     "start": "webpack serve --open --config ./config/webpack.dev.config.js",
     "build": "webpack --config ./config/webpack.prod.config.js"
   },
+  "private": true,
   "keywords": [],
   "author": "",
   "license": "ISC",
