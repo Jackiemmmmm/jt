@@ -4,7 +4,7 @@
   "scripts": {
     "start": "lerna exec --scope webpack-react -- yarn start",
     "build": "lerna exec --scope @jt/* -- yarn build",
-    "release": "lerna bootstrap && yarn build && lerna publish"
+    "release": "lerna bootstrap && yarn build && lerna publish --no-private"
   },
   "repository": {
     "type": "git",
